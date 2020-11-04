@@ -1,0 +1,20 @@
+{
+    "name": "php-tool-kit/template",
+    "description": "Uma m\u0000scara para o Twig",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Everton da Rosa",
+            "email": "everton3x@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.4.12",
+        "twig/twig": "9999999-dev"
+    },
+    "autoload": {
+        "files": ["src/template.php"]
+    }
+}
